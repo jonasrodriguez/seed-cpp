@@ -16,7 +16,7 @@ To get you started you can simply clone the `seed-cpp` repository.
 
 ### Prerequisites
 
-You need [git][git] to clone the seed-dotnet repository.
+You need [git][git] to clone the seed-cpp repository and build the external dependencies. In order to build the application you will need Visual Studio 2017 with Visual C++ component.
 
 ### Clone `seed-cpp`
 
@@ -27,13 +27,17 @@ git clone https://github.com/systelab/seed-cpp.git
 cd seed-dotnet
 ```
 
-If you just want to start a new project without the seed-dotnet commit history then you can do:
+If you just want to start a new project without the seed-cpp commit history then you can do:
 
 ```bash
 git clone --depth=1 https://github.com/systelab/seed-cpp.git <your-project-name>
 ```
 
 The depth=1 tells git to only pull down one commit worth of historical data.
+
+### Build external dependencies
+
+TBD
 
 ## Run the application
 
